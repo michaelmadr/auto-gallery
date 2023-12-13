@@ -12,16 +12,16 @@
     </header>
 
     <section>
-        <h2>Welcome</h2>
+        <h2>Sup wyd wya</h2>
         <p>
-            Here are some cool pics
+            Here are some cool pics g
         </p>
     </section>
 
+    <div class ="gallery">
+
+    </div>
         
-        <div class="gallery">
-            <!-- <img src="images/cowboye.jpg" alt="cow"> -->
-        </div>
 
         <script>
             async function fetchImages() {
@@ -34,8 +34,8 @@
                     if (imageRegex.test(imageUrl)) {
                     const img = document.createElement('img');
                     img.src = imageUrl;
-                    img.width = 100;
                     img.height = 100;
+                    img.width = 100;
                     gallery.appendChild(img);
                     }
                     else {

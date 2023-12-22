@@ -1,14 +1,17 @@
 # auto-gallery
  
-A work in progress application that plans to generate a gallery page using images in a specified folder
+A work in progress desktop app that plans to generate a gallery page using images in a specified folder
 
 Building this for my website, hoping to extend it to a simple tool that can be used by anyone.
 
-## To-Do
+## Loose To-Do
 
-- [x] Populate webpage with images 
-- [ ] Automatically arrange images to fill page
-- [ ] Generate metadata file for every image containing title, date taken, camera info, etc
-- [ ] Display data through website, hover/tap
-- [ ] Navbar / Search / Orginize photos
-- [ ] Desktop app?
+### Desktop app (build with electron.js)
+- [ ] Create Gallery
+- [ ] Upload images to gallery
+   - [ ] Add Description, Date, Location, Camera info
+   - [ ] Mini map feature that shows location?
+- [ ] Generate unique image IDs
+- [ ] Metadata file (JSON?)
+- [ ] JS code to generate webpage procedurally, with descriptions availible on interaction
+- [ ] ??? Profit
